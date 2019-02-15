@@ -2,7 +2,7 @@ applications:
 - name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
-  - route: backlog-pal-am20064429.apps.dev.pcf-aws.com
+  - route: backlog-pal-am20064429.cfapps.io
   memory: 256M
   instances: 1
   env:

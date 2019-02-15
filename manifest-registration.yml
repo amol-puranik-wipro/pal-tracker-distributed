@@ -2,7 +2,7 @@ applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-am20064429.apps.dev.pcf-aws.com
+  - route: registration-pal-am20064429.cfapps.io
   memory: 256M
   instances: 1
   env:

@@ -2,7 +2,7 @@ applications:
 - name: tracker-allocations
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
-  - route: allocations-pal-am20064429.apps.dev.pcf-aws.com
+  - route: allocations-pal-am20064429.cfapps.io
   memory: 256M
   instances: 1
   env:
